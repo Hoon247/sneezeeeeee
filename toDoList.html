@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="toDoList.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src = "sneeze.js"></script>
+    <title></title>
+  </head>
+  <body>
+  <div id = "todo_container">
+    <div id = "todo_top">
+      <div id = "todo_top_header">
+        <div id = "todo_top_header_menuBtn">
+          <img src = "img/todo/menubar.png" id = "menubar" height = "49px">
+        </div>
+        <div id = "todo_top_header_date">
+        </div>
+      </div>
+      <div id = "todo_top_user">
+        <div id = "todo_top_user_emozi">
+        <img src = "img/home/emozi_hoon.png">
+        </div>
+        <div id = "todo_top_user_info">
+        </div>
+      </div>
+    </div>
+    <div id = "todo_bottom">
+      <div id = "todo_list">
+        list
+      </div>
+      <div id = "todo_input">
+        <div id = "todo_input_textboxgrid">
+        <input type="text" id="todo_input_textbox">
+        </div>
+        <div id = "todo_input_buttongrid">
+        <input type="button" id="todo_input_button" onclick="listAddClick();">
+        </div>
+      </div>
+    </div>
+  </div>
+  </body>
+  <script src = "toDoList.js"></script>
+</html>

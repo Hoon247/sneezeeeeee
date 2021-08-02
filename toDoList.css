@@ -1,0 +1,61 @@
+@charset "UTF-8";
+body{
+margin :50px 10px 10px 10px;
+padding: 0px;
+text-decoration:none;
+font-family: 'Roboto Condensed', sans-serif;
+}
+
+#todo_container{
+  display : grid;
+  grid-template-rows: 25% 1fr;
+  height : 92vh;
+}
+#todo_top{
+  display : grid;
+  grid-template-rows: 25% 1fr;
+}
+#todo_top_header{
+  display : grid;
+  grid-template-columns: 35% 1fr;
+}
+#todo_top_header_date{
+  font-size: 30px;
+  text-align: right;
+  padding-top: 8px;
+}
+#todo_top_user{
+  display : grid;
+  grid-template-columns: 40% 1fr;
+}
+#todo_top_user_emozi > img{
+  width : 100%;
+}
+#todo_bottom{
+  padding-top: 7px;
+}
+#todo_input{
+  display : grid;
+  grid-template-columns: 85% 1fr;
+}
+#todo_input_textbox{
+  width : 100%;
+  height : 35px;
+  background-color:transparent;
+  border:0px;
+  padding:0;
+}
+#todo_input_button{
+  width : 100%;
+  height : 100%;
+  background-color: transparent;
+  border-style: solid;
+  border-width: 1px;
+}
+.itemFrame{
+  display : grid;
+  grid-template-columns: 70% 15% 15%;
+}
+.close{
+  background-color: black;
+}
